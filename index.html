@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>etch-a-sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="img/grid.png" />
+    </head>
+    <body>
+        <h1>Etch-A-Sketch</h1>
+        <div class="menu">
+            <div id="black" class="btn colorBtn">Black</div>
+            <div id="gray" class="btn colorBtn">Gray</div>
+            <div id="rainbow" class="btn colorBtn">Rainbow</div>
+            <div id="random" class="btn colorBtn">Random</div>
+            <div id="reset" class="btn">Reset</div>
+            <div id="change-size">Size:
+                <input type="range" min="2" max="64" value="4" id="slider" >
+            </div>
+        </div>
+        <div class="main-container">
+            <div id="grid-container"></div>
+        </div>
+        <script src='app.js'></script>
+    </body>
+</html>
